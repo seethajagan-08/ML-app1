@@ -36,7 +36,7 @@ def main():
     result=""
     if st.button("Predict my Marks"):
         result=predict_authentication(time_study)
-    st.success('You may get Marks:{}, if you study {}hours'.format(result, time_study))
+    st.success('You may get Marks: {},\n if you study {} hrs'.format(result, time_study))
     #if st.button("About"):
     #    st.text("Lets Learn")
     #    st.text("Built with Streamlit")
