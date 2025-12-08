@@ -33,7 +33,7 @@ def main():
     st.markdown(html_temp,unsafe_allow_html=True)
     time_study = st.slider("Time spent on study (in hrs)",min_value=0.0,max_value=16.0, value=0.1, step=0.1)
     result=""
-    if st.slider("Predict my Marks"):
+    if st.button("Predict my Marks"):
         result=predict_authentication(time_study)
     st.success('You may get Marks:{}, if you study {}hours'.format(result, time_study))
     #if st.button("About"):
