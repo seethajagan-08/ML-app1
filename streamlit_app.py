@@ -31,7 +31,7 @@ def main():
     <br>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
-    time_options = [i/4 for i in range(0, 68)]
+    time_options = [i/4 for i in range(0, 70)]
     time_study = st.selectbox("Time spent on study (in hrs)",time_options)
     result=""
     if st.button("Predict my Marks"):
