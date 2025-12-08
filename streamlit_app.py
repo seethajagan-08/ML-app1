@@ -8,10 +8,10 @@ import streamlit as st
 # st.write('Hello world!')
 
 pickle_in = open("marks_pred.pkl", "rb")
-lin_mod = pickle.load(pickle_in)
+lin_model = pickle.load(pickle_in)
 
-def predict_authentication(y):
-  prediction=lin_mod([[y]])
+def predict_authentication(time_study):
+  prediction=lin_model([[time_study]])
   return prediction
 
 def main():
@@ -26,8 +26,8 @@ def main():
     time_study = st.number_input("Time spent on study(in hrs)",min_value=0, step=1)
     result=""
     if st.button("Predict my Marks"):
-        result=predict_authentication(y)
-    st.success('You may get Marks:{}, if you study {}hours'.format(result, y))
+        result=predict_authentication(time_study)
+    st.success('You may get Marks:{}, if you study {}hours'.format(result, time_study))
     if st.button("About"):
         st.text("Lets Learn")
         st.text("Built with Streamlit")
