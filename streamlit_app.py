@@ -37,9 +37,13 @@ def main():
     if st.button("Predict my Marks"):
         result=predict_authentication(time_study)
     st.success('You may get Marks: {},\n if you study {} hrs'.format(result, time_study))
-    #if st.button("About"):
-    #    st.text("Lets Learn")
-    #    st.text("Built with Streamlit")
+    if st.button("About Me"):
+        st.text("I'm Seetha Jagan")
+        st.text("Follow me on 👇")
+        st.markdown(
+            "<a href='https://www.linkedin.com/in/seethajagan' target='_blank' style='color: blue; font-size: 20px;'>Linked In</a>",
+            unsafe_allow_html=True
+        )
 
 if __name__=='__main__':
     main()
