@@ -41,7 +41,7 @@ def main():
         st.text("I'm Seetha Jagan")
         st.text("Follow me on 👇")
         st.markdown(
-                    "<a href='https://www.linkedin.com/in/seethajagan' target='_blank' style='color:skyblue; underline:none; font-size:18px;'>Linked In</a>",
+                    "<a href='https://www.linkedin.com/in/seethajagan' target='_blank' style='color:royalblue; text-decoration:none; font-size:18px;'>Linked In</a>",
             unsafe_allow_html=True
         )
 
