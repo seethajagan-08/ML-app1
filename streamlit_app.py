@@ -24,7 +24,7 @@ def main():
     html_temp = """
     <div style="background-color:transparent;margin:auto">
     <h2 style="color:tomato;text-align:center;">Streamlit 'Marks Prediction' ML App </h2>
-    <p style="Color: magenta; text-align:center;">Project 1<br> This is my 1st project. This app analysis the marks based on your study time</p>
+    <p style="color:magenta; text-align:center;">Project 1<br> This is my 1st project. This app analysis the marks based on your study time</p>
     </div>
     <br>
     <br>
