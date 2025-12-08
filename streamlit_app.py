@@ -25,6 +25,8 @@ def main():
     <div style="background-color:transparent;margin:auto">
     <h2 style="color:tomato;text-align:center;">Streamlit Marks Prediction ML App </h2>
     </div>
+    <br>
+    <br>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     time_study = st.number_input("Time spent on study(in hrs)",min_value=0, step=1)
