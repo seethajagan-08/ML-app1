@@ -10,7 +10,7 @@ import streamlit as st
 pickle_in = open("marks_pred.pkl", "rb")
 lin_mod = pickle.load(pickle_in)
 
-def predict_authentication('y'):
+def predict_authentication(y):
   prediction=lin_mod([[y]])
   return prediction
 
