@@ -14,7 +14,7 @@ def welcome():
     return "Welcome All"
 
 def predict_authentication(time_study):   
-    prediction=mlr.predict([[time_study]])
+    prediction=lin_model.predict([[time_study]])
     return prediction
 
 
