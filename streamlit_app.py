@@ -22,10 +22,9 @@ def predict_authentication(time_study):
 def main():
     # st.title("Marks Prediction")
     html_temp = """
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <div style="background-color:transparent;margin:auto">
     <h2 style="color:tomato;text-align:center;">Streamlit 'Marks Prediction' ML App </h2>
-    <p style="color:olive; text-align:center;" class="fab">&#xf20e; Project 1<br>
+    <p style="color:olive; text-align:center;">1️⃣ Project<br>
     This is my 1st project. This app analysis the marks based on your study time</p>
     </div>
     <br>
