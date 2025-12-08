@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 import pickle
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error, mean_absolute_percentage_error, root_mean_squared_error
+# from sklearn.linear_model import LinearRegression
+# from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error, mean_absolute_percentage_error, root_mean_squared_error
 import streamlit as st
 
 # st.title('Marks Prediction')
