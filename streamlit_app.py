@@ -9,7 +9,7 @@ import streamlit as st
 # st.info('Predicting Marks for students based on their time spent')
 # st.write('Hello world!')
 
-pickle_in = open("marks_pred.pkl", "rb")
+pickle_in = open("marks.pkl", "rb")
 lin_model = pickle.load(pickle_in)
 
 def predict_authentication(time_study):
