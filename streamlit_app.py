@@ -10,10 +10,10 @@ import streamlit as st
 # st.write('Hello world!')
 
 pickle_in = open("marks.pkl", "rb")
-lin_model = pickle.load(pickle_in)
+slr = pickle.load(pickle_in)
 
 def predict_authentication(time_study):
-  prediction=lin_model([[time_study]])
+  prediction=slr([[time_study]])
   return prediction
 
 def main():
