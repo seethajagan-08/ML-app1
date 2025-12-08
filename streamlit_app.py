@@ -44,19 +44,19 @@ if __name__=='__main__':
     main()
 
 
-'''hours = st.slider(
-    "Time spent on study (in hrs)",
-    min_value=0.0,
-    max_value=24.0,
-    value=1.0,
-    step=0.1
-)'''
+#'''hours = st.slider(
+#    "Time spent on study (in hrs)",
+#    min_value=0.0,
+#    max_value=24.0,
+#    value=1.0,
+#    step=0.1
+#)'''
 
-'''time_study = st.number_input(
-    "Time spent on study(in hrs)",
-    min_value=0.0,
-    max_value=16.0,
-    step=0.1
-) '''
+#'''time_study = st.number_input(
+#    "Time spent on study(in hrs)",
+#    min_value=0.0,
+#    max_value=16.0,
+#    step=0.1
+#) '''
 
     
