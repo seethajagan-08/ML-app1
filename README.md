@@ -1,13 +1,13 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# Machine Learning - Marks predicting App
 
-Description of the app ...
+I completed a Machine Learning project where I built a Simple Linear Regression model to predict student marks based on the number of hours they studied. The goal was to understand how the amount of time spent studying influences performance.
+
+Implemented an End-to-End workflow from preprocessing to deployment 
+  => Data Preprocessing —> Model training —> Evaluation —> Deployment 
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://ml-project1.streamlit.app/)]
 
 ## GitHub Codespaces
 
