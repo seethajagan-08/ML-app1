@@ -1,22 +1,20 @@
-# Machine Learning - Marks predicting App
+# 🤖 Machine Learning - Marks predicting App
 
-I completed a Machine Learning project where I built a Simple Linear Regression model to predict student marks based on the number of hours they studied. The goal was to understand how the amount of time spent studying influences performance.
+  I completed a Machine Learning project where I built a Simple Linear Regression model to predict student marks based on the number of hours they studied. The goal was to understand how the amount of time spent studying influences performance.
 
 Implemented an End-to-End workflow from preprocessing to deployment 
-  => Data Preprocessing —> Model training —> Evaluation —> Deployment 
+ 👨🏻‍💻 => Data Preprocessing ➡️ Model training ➡️ Evaluation ➡️ Deployment 
 
-## Demo App
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red_white.svg)](https://ml-project1.streamlit.app/)
+## 🔗 Demo App
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ml-project1.streamlit.app/)
 
-# Simple Linear Regression Project 🎓📈
+## 📦 Kaggle Dataset
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/datasets/yasserh/student-marks-dataset)
 
-This project predicts student marks based on study time using a simple linear regression model.
-
-Built with <span style="color:red">Streamlit</span> 🚀
-
+## 👥 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/seetha-jagan/)
 
 ## GitHub Codespaces
-
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
 
 ## Required Technologies
@@ -27,6 +25,3 @@ Built with <span style="color:red">Streamlit</span> 🚀
   5. Sklearn
   6. Streamlit
   7. kagglehub
-
-## Kaggle Dataset
-[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/datasets/yasserh/student-marks-dataset)
