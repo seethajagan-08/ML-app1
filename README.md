@@ -6,19 +6,20 @@ Implemented an End-to-End workflow from preprocessing to deployment
   => Data Preprocessing —> Model training —> Evaluation —> Deployment 
 
 ## Demo App
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ml-project1.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red_white.svg)](https://ml-project1.streamlit.app/)
 
 ## GitHub Codespaces
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
 
-## Section Heading
+## Required Technologies
+  1. pandas
+  2. Numpy
+  3. Matplotlib
+  4. Seaborn
+  5. Sklearn
+  6. Streamlit
+  7. kagglehub
 
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+## Kaggle Dataset
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/datasets/yasserh/student-marks-dataset)
