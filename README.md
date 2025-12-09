@@ -7,6 +7,8 @@ Implemented an End-to-End workflow from preprocessing to deployment
 
 ## 🔗 Demo App
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red_white.svg)](https://ml-project1.streamlit.app/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://your-streamlit-app-link)
+
 
 ## 📦 Kaggle Dataset
 [![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/datasets/yasserh/student-marks-dataset)
