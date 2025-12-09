@@ -8,6 +8,13 @@ Implemented an End-to-End workflow from preprocessing to deployment
 ## Demo App
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red_white.svg)](https://ml-project1.streamlit.app/)
 
+# Simple Linear Regression Project 🎓📈
+
+This project predicts student marks based on study time using a simple linear regression model.
+
+Built with <span style="color:red">Streamlit</span> 🚀
+
+
 ## GitHub Codespaces
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
