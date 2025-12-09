@@ -6,8 +6,7 @@ Implemented an End-to-End workflow from preprocessing to deployment
   => Data Preprocessing —> Model training —> Evaluation —> Deployment 
 
 ## Demo App
-
-[![Streamlit App](https://ml-project1.streamlit.app/)]
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ml-project1.streamlit.app/)
 
 ## GitHub Codespaces
 
